@@ -33,6 +33,7 @@ Then open [http://127.0.0.1:4173](http://127.0.0.1:4173).
 - Browser-based demo skeleton
 - README
 - Checkpoint-ready progress draft in `outputs/`
+- Public repository: `https://github.com/sin199/arc-treasury-agent`
 
 ## What still needs to exist before submission
 

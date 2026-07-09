@@ -10,9 +10,11 @@
 
 ## Still needed before a public repo link exists
 
-1. Create a remote repository
-2. Push this workspace to that remote
-3. Replace placeholder repo link in `outputs/arc-treasury-agent-checkpoint2-draft.md`
+Done:
+
+1. Remote repository created
+2. Workspace pushed to GitHub
+3. Repo link written into the Checkpoint 2 draft
 
 ## Still needed before final submission
 

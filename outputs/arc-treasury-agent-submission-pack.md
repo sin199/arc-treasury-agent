@@ -28,6 +28,6 @@ The next step is replacing the mock payout engine with real Arc and Circle-backe
 
 ## Missing External Links
 
-- Repository URL: not published yet
+- Repository URL: https://github.com/sin199/arc-treasury-agent
 - Presentation URL: not created yet
 - Demo video URL: not created yet

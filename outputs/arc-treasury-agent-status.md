@@ -25,9 +25,11 @@ Known submission requirements captured from the page:
 - Judging emphasizes Arc/Circle integration, usefulness, execution quality, and presentation clarity.
 
 Current blockers:
-- No repository link exists yet in this workspace.
 - No presentation link exists yet.
 - No MVP or demo video exists yet.
+
+Repository:
+- https://github.com/sin199/arc-treasury-agent
 
 Automation:
 - A daily thread heartbeat is active through 2026-08-10 to revisit this thread and continue deadline handling automatically.

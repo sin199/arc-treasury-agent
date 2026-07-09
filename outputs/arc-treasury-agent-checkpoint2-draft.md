@@ -12,7 +12,7 @@ The next build step is to replace the mock settlement loop with real Arc and Cir
 
 ## Repo link placeholder
 
-Add the repository URL here once the repo is published.
+https://github.com/sin199/arc-treasury-agent
 
 ## Presentation link placeholder
 
