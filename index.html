@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arc Treasury Agent</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Encode Club · Programmable Money Hackathon</p>
+          <h1>Arc Treasury Agent</h1>
+          <p class="hero-text">
+            An autonomous treasury and payment agent for Arc. The demo focuses on one
+            clear loop: hold USDC, apply payout rules, and settle transfers with a
+            visible audit trail.
+          </p>
+          <div class="hero-badges">
+            <span>Agentic Economy Track</span>
+            <span>USDC-native payouts</span>
+            <span>Checkpoint 2 ready</span>
+          </div>
+        </div>
+
+        <aside class="hero-panel">
+          <div class="panel-label">Checkpoint Summary</div>
+          <ul class="checkpoint-list">
+            <li><strong>Checkpoint 1</strong><span>Project, team, idea complete</span></li>
+            <li><strong>Checkpoint 2</strong><span>Need repo link and progress update</span></li>
+            <li><strong>Final</strong><span>Need MVP, code, and 3-minute demo</span></li>
+          </ul>
+        </aside>
+      </header>
+
+      <main class="dashboard">
+        <section class="card treasury-card">
+          <div class="card-head">
+            <div>
+              <p class="card-kicker">Treasury Balance</p>
+              <h2 id="treasury-balance">$52,400 USDC</h2>
+            </div>
+            <div class="status-pill">
+              <span class="status-dot"></span>
+              Automated rules armed
+            </div>
+          </div>
+
+          <div class="balance-strip">
+            <div>
+              <p>Pending payouts</p>
+              <strong id="pending-total">$8,950</strong>
+            </div>
+            <div>
+              <p>Settled today</p>
+              <strong id="settled-total">$0</strong>
+            </div>
+            <div>
+              <p>Reserve floor</p>
+              <strong>$15,000</strong>
+            </div>
+          </div>
+
+          <div class="actions">
+            <button id="run-payouts" class="primary-button">Run payout cycle</button>
+            <button id="top-up-balance" class="ghost-button">Add 10,000 USDC reserve</button>
+          </div>
+        </section>
+
+        <section class="card rules-card">
+          <div class="card-head compact">
+            <div>
+              <p class="card-kicker">Rule Set</p>
+              <h2>Approved settlement logic</h2>
+            </div>
+          </div>
+
+          <div id="rules-grid" class="rules-grid"></div>
+        </section>
+
+        <section class="card log-card">
+          <div class="card-head compact">
+            <div>
+              <p class="card-kicker">Settlement Feed</p>
+              <h2>Agent decisions and execution logs</h2>
+            </div>
+          </div>
+
+          <div id="settlement-feed" class="settlement-feed"></div>
+        </section>
+
+        <section class="card roadmap-card">
+          <div class="card-head compact">
+            <div>
+              <p class="card-kicker">Checkpoint 2 Package</p>
+              <h2>What the repo already covers</h2>
+            </div>
+          </div>
+
+          <ol class="roadmap-list">
+            <li>Working browser prototype showing treasury balance, rules, and settlements.</li>
+            <li>Hackathon README with positioning, flow, and next build steps.</li>
+            <li>Progress update draft ready to reuse on the Encode Club submission page.</li>
+          </ol>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+{
+  "name": "arc-treasury-agent",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Arc Treasury Agent MVP prototype for the Encode Club Programmable Money Hackathon.",
+  "scripts": {
+    "start": "node server.js"
+  }
+}
