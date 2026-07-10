@@ -28,6 +28,7 @@ Current state and remaining work:
 - Checkpoint 2 evidence is now available through the public case study and operator brief.
 - The production MVP is the public `Arc USDC Rebalancer` repository and Dashboard.
 - The Dashboard is in safe preview mode: operator wallet is not connected, Circle wallet set is missing, and execution is locked.
+- Wallet connection was attempted on the public Dashboard; it reports that no injected MetaMask/Rabby wallet is available in the browser.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
 - Encode Club project details now point to the production Dashboard, repository, and case study.
