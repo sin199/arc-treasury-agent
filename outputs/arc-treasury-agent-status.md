@@ -30,6 +30,7 @@ Current state and remaining work:
 - The Dashboard is in safe preview mode: operator wallet is not connected, Circle wallet set is missing, and execution is locked.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
+- The Encode Club project route currently authenticates the account but renders an empty main area, so its project metadata could not be updated in this run.
 
 Repository:
 - https://github.com/sin199/arc-usdc-rebalancer
