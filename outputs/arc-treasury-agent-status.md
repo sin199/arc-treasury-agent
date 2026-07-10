@@ -30,7 +30,8 @@ Current state and remaining work:
 - The Dashboard is in safe preview mode: operator wallet is not connected, Circle wallet set is missing, and execution is locked.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
-- The Encode Club project route currently authenticates the account but renders an empty main area, so its project metadata could not be updated in this run.
+- Encode Club project details now point to the production Dashboard, repository, and case study.
+- The project group chat has the production progress update and review links.
 
 Repository:
 - https://github.com/sin199/arc-usdc-rebalancer
@@ -40,6 +41,9 @@ Public review links:
 - Case study / progress link: https://web-eight-chi-99.vercel.app/case-study
 - Operator brief: https://web-eight-chi-99.vercel.app/operator
 - Release notes: https://web-eight-chi-99.vercel.app/notes
+
+Demo preparation:
+- Three-minute recording script: `outputs/arc-treasury-agent-demo-script.md`
 
 Automation:
 - A daily thread heartbeat is active through 2026-08-10 to revisit this thread and continue deadline handling automatically.
