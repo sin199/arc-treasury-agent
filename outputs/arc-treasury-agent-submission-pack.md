@@ -10,24 +10,24 @@ Agentic Economy Track
 
 ## Short Description
 
-Arc Treasury Agent is an autonomous USDC treasury and payment agent that manages balances, applies payout rules, protects a reserve floor, and records settlement actions in a visible ledger.
+Arc Treasury Agent, implemented as Arc USDC Rebalancer, is an autonomous USDC treasury operator on Arc that turns balance and policy state into a readable readiness report, recommends safe top-up or trim actions, and keeps live signing gated behind explicit dependencies.
 
 ## Checkpoint 2 Progress Update
 
-We have completed the first interactive MVP prototype for Arc Treasury Agent. The current demo shows a treasury balance, approved payout rules, a reserve threshold, and a settlement feed that records when the agent executes or blocks a payout cycle. This gives us a clear operator-facing demo and a narrow product story for the hackathon.
+We have completed a public Arc Testnet MVP. The Dashboard works in preview mode without a wallet, compares below-minimum / at-target / above-target treasury states, generates a copyable report and action pack, exposes TreasuryPolicy, TreasuryExecutor, Arc agent identity, and Circle readiness, and keeps live execution locked until all gates are ready.
 
-The next step is replacing the mock payout engine with real Arc and Circle-backed transaction logic so the same user flow can be demonstrated against live wallet, payout, and settlement events.
+The remaining final-submission work is operational proof: finish Circle wallet-set readiness, publish one verified testnet top-up or trim transaction, and record a three-minute demo.
 
 ## Final Demo Story
 
-1. Fund treasury with USDC
-2. Display pending payout rules
-3. Trigger agent evaluation
-4. Execute or block settlement based on reserve policy
-5. Show final ledger and explain why the action was safe
+1. Open the public case study
+2. Generate the readiness report
+3. Compare the three treasury scenarios
+4. Copy the report or action pack
+5. Inspect the live execution gates and Arc evidence
 
 ## Missing External Links
 
-- Repository URL: https://github.com/sin199/arc-treasury-agent
-- Presentation URL: not created yet
+- Repository URL: https://github.com/sin199/arc-usdc-rebalancer
+- Progress / presentation URL: https://web-eight-chi-99.vercel.app/case-study
 - Demo video URL: not created yet

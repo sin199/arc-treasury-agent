@@ -2,7 +2,7 @@
 
 ## Positioning
 
-`Arc Treasury Agent` is a hackathon MVP for the Encode Club `Programmable Money Hackathon`.
+`Arc Treasury Agent` is the hackathon project name. The production MVP is published as `Arc USDC Rebalancer`.
 
 The pitch is:
 
@@ -10,6 +10,7 @@ The pitch is:
 - focused on `USDC`-denominated treasury operations
 - designed for the `Agentic Economy Track`
 - scoped around one visible operator story instead of a large feature map
+- report-first, with live execution shown only after all safety gates pass
 
 ## Core story
 
@@ -17,17 +18,17 @@ An operator funds a treasury.
 
 The agent watches a small set of payout rules.
 
-When rules pass, the agent settles payments while preserving a reserve floor.
+When the treasury moves outside its policy band, the agent recommends a top-up or trim while preserving the reserve floor.
 
-Every decision is written into a visible settlement feed so the system feels auditable.
+Every decision is written into a visible readiness report and action pack so the operator can review it before execution.
 
 ## Demo flow
 
-1. Start with a funded treasury balance.
-2. Review approved payout rules.
-3. Run a payout cycle.
-4. Show the updated balance and settlement ledger.
-5. Explain how the mock loop would be replaced by live Arc and Circle-backed transactions.
+1. Open the public case study.
+2. Generate a readiness report from the current balance and policy inputs.
+3. Compare below-minimum, at-target, and above-target scenarios.
+4. Copy the markdown report or action pack.
+5. Inspect the live execution gate and Arc/Circle evidence.
 
 ## Why this fits the track
 
@@ -35,9 +36,15 @@ Every decision is written into a visible settlement feed so the system feels aud
 - It uses programmable money logic rather than static wallet transfers.
 - It is easy to extend into real agent-to-agent settlement.
 
+## Public MVP links
+
+- Dashboard: https://web-eight-chi-99.vercel.app/dashboard
+- Case study: https://web-eight-chi-99.vercel.app/case-study
+- Operator brief: https://web-eight-chi-99.vercel.app/operator
+- Source repository: https://github.com/sin199/arc-usdc-rebalancer
+
 ## Next engineering steps
 
-1. Replace mock data with a wallet balance source.
-2. Add a real rule evaluation pipeline.
-3. Produce signed payout intents.
-4. Execute and record live settlement events.
+1. Finish Circle wallet-set readiness.
+2. Publish one verified Arc Testnet execution transaction.
+3. Record the three-minute demo video.

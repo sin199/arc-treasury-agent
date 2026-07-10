@@ -1,6 +1,6 @@
 # Arc Treasury Agent
 
-`Arc Treasury Agent` is a lightweight MVP prototype for the Encode Club `Programmable Money Hackathon`.
+`Arc Treasury Agent` is the Encode Club `Programmable Money Hackathon` project. Its production MVP is the public `Arc USDC Rebalancer` dashboard and repository.
 
 The project position is simple:
 
@@ -17,7 +17,7 @@ The current prototype demonstrates:
 3. An agent-triggered payout cycle
 4. A settlement feed that records what the agent decided and executed
 
-This is intentionally scoped for hackathon delivery. It is enough to explain the system, show the control loop, and support a Checkpoint 2 progress update.
+The public MVP keeps the same treasury-operator story while adding Arc Testnet policy reads, a TreasuryExecutor, agent identity, Circle readiness checks, report-first operation, and explicit live-execution gates.
 
 ## Run locally
 
@@ -30,14 +30,17 @@ Then open [http://127.0.0.1:4173](http://127.0.0.1:4173).
 ## What is already ready
 
 - Project direction
-- Browser-based demo skeleton
+- Browser-based local prototype
 - README
-- Checkpoint-ready progress draft in `outputs/`
-- Public repository: `https://github.com/sin199/arc-treasury-agent`
+- Public production repository: `https://github.com/sin199/arc-usdc-rebalancer`
+- Live Dashboard: `https://web-eight-chi-99.vercel.app/dashboard`
+- Case study / progress link: `https://web-eight-chi-99.vercel.app/case-study`
+- Operator brief: `https://web-eight-chi-99.vercel.app/operator`
+- Release notes: `https://web-eight-chi-99.vercel.app/notes`
+- Checkpoint and submission drafts in `outputs/`
 
 ## What still needs to exist before submission
 
-- A real git repository URL
-- A short presentation or progress update link for Checkpoint 2
-- A stronger MVP backed by real Arc / Circle integration for final submission
+- Complete Circle wallet-set readiness for live crosschain execution
+- Publish a verified Arc Testnet top-up or trim transaction hash
 - A 3-minute demo video

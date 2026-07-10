@@ -4,7 +4,7 @@ Project: `Arc Treasury Agent`
 
 Platform: Encode Club `Programmable Money Hackathon`
 
-Current state as of 2026-07-09:
+Current state as of 2026-07-10:
 - Project exists on the Encode Club dashboard.
 - Track selected: `Agentic Economy Track`.
 - Project description is filled.
@@ -24,12 +24,21 @@ Known submission requirements captured from the page:
 - Final submission: functional MVP, code repository, and a 3-minute demo video.
 - Judging emphasizes Arc/Circle integration, usefulness, execution quality, and presentation clarity.
 
-Current blockers:
-- No presentation link exists yet.
-- No MVP or demo video exists yet.
+Current state and remaining work:
+- Checkpoint 2 evidence is now available through the public case study and operator brief.
+- The production MVP is the public `Arc USDC Rebalancer` repository and Dashboard.
+- The Dashboard is in safe preview mode: operator wallet is not connected, Circle wallet set is missing, and execution is locked.
+- No top_up or trim Arc Testnet transaction hash has been published yet.
+- A 3-minute demo video is still required for final submission.
 
 Repository:
-- https://github.com/sin199/arc-treasury-agent
+- https://github.com/sin199/arc-usdc-rebalancer
+
+Public review links:
+- Dashboard: https://web-eight-chi-99.vercel.app/dashboard
+- Case study / progress link: https://web-eight-chi-99.vercel.app/case-study
+- Operator brief: https://web-eight-chi-99.vercel.app/operator
+- Release notes: https://web-eight-chi-99.vercel.app/notes
 
 Automation:
 - A daily thread heartbeat is active through 2026-08-10 to revisit this thread and continue deadline handling automatically.
