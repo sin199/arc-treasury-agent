@@ -31,4 +31,5 @@ Circle readiness is complete in production. The app reads a live developer-contr
 
 - Repository URL: https://github.com/sin199/arc-usdc-rebalancer
 - Progress / presentation URL: https://web-eight-chi-99.vercel.app/case-study
+- Deck URL: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-treasury-agent-deck.pptx
 - Demo video URL: not created yet

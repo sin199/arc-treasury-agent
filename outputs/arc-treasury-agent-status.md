@@ -38,6 +38,7 @@ Current state and remaining work:
 - The current onchain state is `At target`, so the correct decision is `Hold` and no live transaction is needed.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
+- The six-slide final presentation deck is published in the public production repository.
 - Encode Club project details now contain the production Dashboard, repository, case study, and the 2026-07-13 Circle/live-gate readiness result.
 - The project group chat input is currently disabled, so the latest production update could not be posted there.
 - The current Encode stage explicitly says `No submission needed for this stage`; the project remains Active and Checkpoint 1 requirements are covered.
@@ -53,6 +54,8 @@ Public review links:
 
 Demo preparation:
 - Three-minute recording script: `outputs/arc-treasury-agent-demo-script.md`
+- Presentation deck: `outputs/arc-treasury-agent-deck.pptx`
+- Public deck: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-treasury-agent-deck.pptx
 
 Automation:
 - A daily thread heartbeat is active through 2026-08-10 to revisit this thread and continue deadline handling automatically.
