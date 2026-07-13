@@ -6,9 +6,11 @@ Arc Treasury Agent is an autonomous USDC treasury operator on Arc. Its productio
 
 ## Current progress update
 
-We have defined the project scope, selected the `Agentic Economy Track`, and moved the project from a local browser prototype to a public Arc Testnet MVP. The current Dashboard supports preview-mode readiness reports, below-minimum / at-target / above-target scenarios, copyable markdown and action packs, Arc TreasuryPolicy and TreasuryExecutor evidence, Arc agent identity, Circle readiness checks, and an explicit execution lock.
+We have defined the project scope, selected the `Agentic Economy Track`, and moved the project from a local browser prototype to a public Arc Testnet MVP. The current Dashboard supports preview-mode readiness reports, below-minimum / at-target / above-target scenarios, copyable markdown and action packs, Arc TreasuryPolicy and TreasuryExecutor evidence, Arc agent identity, and Circle developer-controlled wallet readiness.
 
-The remaining final-submission work is to finish Circle wallet-set readiness, publish one verified testnet top-up or trim transaction, and record the three-minute demo.
+Circle readiness is complete in production. The Dashboard loads live wallet set `65b02aa0-10f5-58fb-aadf-84827226289a`, live ARC Testnet wallet `0xf695114dc247c8477391029725d9e031335b0132`, and shows every live execution gate satisfied when the operator wallet is connected. The current policy state is `At target`, so the safe recommendation is `Hold` and no transaction is needed.
+
+The remaining final-submission work is to record and publish the three-minute demo. A testnet top-up or trim transaction should only be published if a real out-of-band scenario requires it.
 
 ## Repository
 

@@ -14,7 +14,8 @@ Point out:
 
 - Preview mode is available without a wallet.
 - The report says `Hold` at the target.
-- The policy source, Circle status, executor address, and agent identity are visible as evidence.
+- Circle readiness is complete and the live wallet set is visible.
+- The policy source, executor address, and agent identity are visible as evidence.
 - The action pack can be copied for an operator review trail.
 
 ## 1:10-1:55 · Below minimum
@@ -31,13 +32,13 @@ Click `Above target`.
 
 Say: "When the balance is above target, the recommendation changes to `trim`. The same report-first path produces a bounded action pack instead of silently sending funds."
 
-Show the policy band and the execution lock.
+Show the policy band and the satisfied live gates. Do not click the live execution action or approve a wallet signature.
 
 ## 2:35-3:00 · Arc/Circle integration and safety boundary
 
 Open the operator brief or architect proof page.
 
-Say: "The production repository includes Arc Testnet TreasuryPolicy, TreasuryExecutor, Arc agent identity, and Circle wallet/Gateway readiness. Preview mode never signs or submits a transaction. Live execution only appears after the operator wallet, live policy, Circle readiness, executor, and actionable report gates are all ready."
+Say: "The production repository includes Arc Testnet TreasuryPolicy, TreasuryExecutor, Arc agent identity, and a live Circle developer-controlled wallet on Arc Testnet. The operator wallet, live policy, Circle wallet set, and executor gates are all verified. Preview mode never signs or submits a transaction, and the current at-target state correctly requires no transaction."
 
 End on the Dashboard.
 

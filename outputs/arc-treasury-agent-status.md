@@ -30,10 +30,12 @@ Current state and remaining work:
 - Chrome has an injected operator wallet connected to the production Dashboard: `0x630F6320315633e170B5Cc29b40E1Dbb86ae96e2`.
 - Arc policy and executor configuration load successfully. TreasuryExecutor is `0x5c5d0275371724779f3a6928eb0312df2b1a501f` and agent identity `#4507` is `kyc_verified`.
 - A `trim` preview completed successfully, and the Dashboard was restored to the safe `At target` state. No transaction was sent.
-- Circle API key and entity secret are present in Vercel Production, but `CIRCLE_WALLET_SET_ID` is not configured.
-- Circle wallet creation is externally blocked: `api-sandbox.circle.com` returns HTTP 500 because its internal service at `127.0.0.1:10100` refuses the connection. Circle's public status page nevertheless reports all systems operational.
-- The same test API key returns HTTP 401 on `api.circle.com`, so changing only the API base is not a valid repair.
-- Circle Console has no active Chrome session. One owner login is required to create or rotate a test API key/entity secret before wallet-set provisioning can continue.
+- Circle Testnet credentials were rotated and registered on 2026-07-13, then deployed to Vercel Production through `https://api.circle.com`.
+- Circle wallet set `65b02aa0-10f5-58fb-aadf-84827226289a` is live with developer custody.
+- ARC Testnet wallet `0xf695114dc247c8477391029725d9e031335b0132` is live in that wallet set.
+- The production Circle status endpoint reports every readiness flag as `true`, one live wallet, Gateway available, and zero notes.
+- Chrome verification shows all live gates satisfied: operator connected, policy loaded, Circle ready, executor configured, and `Execution ready`.
+- The current onchain state is `At target`, so the correct decision is `Hold` and no live transaction is needed.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
 - Encode Club project details now point to the production Dashboard, repository, and case study.
