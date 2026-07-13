@@ -10,7 +10,7 @@ Current state as of 2026-07-13:
 - Project description is filled.
 - Team owner is `z cindy`.
 - Join code: `e412371e`
-- Discord integration is connected on the project page.
+- Discord integration currently reports `Failed to send a request to the Edge Function` on the project page.
 
 Deadline checkpoints:
 - Checkpoint 1: Sunday, 2026-07-19 (Anywhere on Earth)
@@ -38,8 +38,9 @@ Current state and remaining work:
 - The current onchain state is `At target`, so the correct decision is `Hold` and no live transaction is needed.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
-- Encode Club project details now point to the production Dashboard, repository, and case study.
-- The project group chat has the production progress update and review links.
+- Encode Club project details now contain the production Dashboard, repository, case study, and the 2026-07-13 Circle/live-gate readiness result.
+- The project group chat input is currently disabled, so the latest production update could not be posted there.
+- The current Encode stage explicitly says `No submission needed for this stage`; the project remains Active and Checkpoint 1 requirements are covered.
 
 Repository:
 - https://github.com/sin199/arc-usdc-rebalancer
