@@ -38,6 +38,8 @@ Current state and remaining work:
 - The current onchain state is `At target`, so the correct decision is `Hold` and no live transaction is needed.
 - No top_up or trim Arc Testnet transaction hash has been published yet.
 - A 3-minute demo video is still required for final submission.
+- A 3-minute demo video has been generated locally at `outputs/arc-treasury-agent-demo.mp4` (1280x720, 180 seconds); it will become public from the repository after push.
+- Public demo video: `https://raw.githubusercontent.com/sin199/arc-usdc-rebalancer/main/docs/arc-treasury-agent-demo.mp4` (HTTP 200 verified on 2026-07-13).
 - The six-slide final presentation deck is published in the public production repository.
 - Encode Club project details now contain the production Dashboard, repository, case study, and the 2026-07-13 Circle/live-gate readiness result.
 - The project group chat input is currently disabled, so the latest production update could not be posted there.

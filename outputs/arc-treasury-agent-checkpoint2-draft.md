@@ -12,6 +12,10 @@ Circle readiness is complete in production. The Dashboard loads live wallet set 
 
 The remaining final-submission work is to record and publish the three-minute demo. A testnet top-up or trim transaction should only be published if a real out-of-band scenario requires it.
 
+The demo video is now prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository and will be linked from the final submission after the repository push.
+
+Public demo video: https://raw.githubusercontent.com/sin199/arc-usdc-rebalancer/main/docs/arc-treasury-agent-demo.mp4
+
 ## Repository
 
 https://github.com/sin199/arc-usdc-rebalancer
