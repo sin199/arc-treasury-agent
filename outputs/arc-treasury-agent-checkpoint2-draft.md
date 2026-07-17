@@ -10,7 +10,7 @@ We have defined the project scope, selected the `Agentic Economy Track`, and mov
 
 Circle readiness is complete in production. The Dashboard loads live wallet set `65b02aa0-10f5-58fb-aadf-84827226289a`, live ARC Testnet wallet `0xf695114dc247c8477391029725d9e031335b0132`, and shows every live execution gate satisfied when the operator wallet is connected. The current policy state is `At target`, so the safe recommendation is `Hold` and no transaction is needed.
 
-The remaining final-submission work is to record and publish the three-minute demo. A testnet top-up or trim transaction should only be published if a real out-of-band scenario requires it.
+The three-minute demo is complete and publicly published. A testnet top-up or trim transaction should only be published if a real out-of-band scenario requires it; the current safe state is `Hold`.
 
 The final demo video is now prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository. It includes real production Dashboard recordings for the 75 USDC and 700 USDC policy scenarios, report evidence, the Action Pack, and the execution lock.
 

@@ -16,7 +16,7 @@ Arc Treasury Agent, implemented as Arc USDC Rebalancer, is an autonomous USDC tr
 
 We have completed a public Arc Testnet MVP. The Dashboard works in preview mode without a wallet, compares below-minimum / at-target / above-target treasury states, generates a copyable report and action pack, and exposes TreasuryPolicy, TreasuryExecutor, Arc agent identity, and Circle developer-controlled wallet readiness.
 
-Circle readiness is complete in production. The app reads a live developer-controlled wallet set and ARC Testnet wallet, and Chrome verification confirms the operator wallet, onchain policy, Circle control plane, and executor are all ready. The current policy state is `At target`, so the correct live recommendation is `Hold`; no transaction is required. The remaining final-submission work is the three-minute demo video.
+Circle readiness is complete in production. The app reads a live developer-controlled wallet set and ARC Testnet wallet, and Chrome verification confirms the operator wallet, onchain policy, Circle control plane, and executor are all ready. The current policy state is `At target`, so the correct live recommendation is `Hold`; no transaction is required. The three-minute demo video is complete and publicly accessible.
 
 ## Final Demo Story
 
@@ -32,4 +32,4 @@ Circle readiness is complete in production. The app reads a live developer-contr
 - Repository URL: https://github.com/sin199/arc-usdc-rebalancer
 - Progress / presentation URL: https://web-eight-chi-99.vercel.app/case-study
 - Deck URL: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-treasury-agent-deck.pptx
-- Demo video URL: not created yet
+- Demo video URL: https://raw.githubusercontent.com/sin199/arc-usdc-rebalancer/main/docs/arc-treasury-agent-demo.mp4
