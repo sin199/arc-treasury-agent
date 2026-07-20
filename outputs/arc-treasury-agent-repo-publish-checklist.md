@@ -1,4 +1,4 @@
-# Arc Treasury Agent Repo Publish Checklist
+# Arc USDC Rebalancer: Treasury Automation Repo Publish Checklist
 
 ## Already ready
 
@@ -18,6 +18,6 @@ The original static prototype remains in this workspace as an early concept and 
 
 ## Still needed before final submission
 
-1. Finish Circle wallet-set readiness
-2. Publish one verified Arc Testnet top-up or trim transaction
-3. Record a 3-minute demo video
+1. Keep public execution disabled unless a separately authorized production test is required
+2. Run a final consistency pass on the demo video and deck so neither implies a submitted transaction
+3. Submit the repository and case-study link when Checkpoint 2 opens

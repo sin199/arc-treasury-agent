@@ -1,18 +1,20 @@
-# Arc Treasury Agent · Checkpoint 2 Draft
+# Arc USDC Rebalancer: Treasury Automation · Checkpoint 2 Draft
 
 ## One-line summary
 
-Arc Treasury Agent is an autonomous USDC treasury operator on Arc. Its production MVP, Arc USDC Rebalancer, turns treasury state and policy into a readiness report and keeps live execution gated until the operator, Arc, and Circle dependencies are ready.
+Arc USDC Rebalancer: Treasury Automation is a DeFi Treasury workflow for policy-driven USDC operations on Arc. It turns treasury state and policy into an auditable readiness report and keeps signed execution gated until the operator, Arc, and Circle dependencies are ready.
 
 ## Current progress update
 
-We have defined the project scope, selected the `Agentic Economy Track`, and moved the project from a local browser prototype to a public Arc Testnet MVP. The current Dashboard supports preview-mode readiness reports, below-minimum / at-target / above-target scenarios, copyable markdown and action packs, Arc TreasuryPolicy and TreasuryExecutor evidence, Arc agent identity, and Circle developer-controlled wallet readiness.
+We have defined the project scope, selected the `DeFi Track`, and moved the project from a local browser prototype to a public Arc Testnet MVP. The current Dashboard supports preview-mode readiness reports, below-minimum / at-target / above-target scenarios, copyable markdown and action packs, Arc TreasuryPolicy and TreasuryExecutor evidence, Arc-linked onchain identity evidence, and Circle developer-controlled wallet readiness.
 
-Circle readiness is complete in production. The Dashboard loads live wallet set `65b02aa0-10f5-58fb-aadf-84827226289a`, live ARC Testnet wallet `0xf695114dc247c8477391029725d9e031335b0132`, and shows every live execution gate satisfied when the operator wallet is connected. The current policy state is `At target`, so the safe recommendation is `Hold` and no transaction is needed.
+The public Dashboard loads live Arc policy, Circle developer-controlled wallet readiness, and TreasuryExecutor configuration. The public preview remains wallet-free and this deployment keeps live execution disabled; no transaction has been submitted. The default preview input is `At target` and returns `Hold`, while the live brief currently evaluates the Arc Testnet executor balance as `0 USDC` and recommends `Top up 200 USDC`. The preview and live-source states are shown separately and are not evidence of completed autonomous execution.
 
-The three-minute demo is complete and publicly published. A testnet top-up or trim transaction should only be published if a real out-of-band scenario requires it; the current safe state is `Hold`.
+The three-minute demo is publicly accessible and shows the report, three policy scenarios, action pack, and execution lock. It does not claim that a top-up or trim transaction was sent.
 
-The final demo video is now prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository. It includes real production Dashboard recordings for the 75 USDC and 700 USDC policy scenarios, report evidence, the Action Pack, and the execution lock.
+The final demo video is prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository. It includes real production Dashboard recordings for the 75 USDC and 700 USDC policy scenarios, report evidence, the Action Pack, and the execution lock. Before the final submission, the video and deck still need a consistency pass so no historical `all gates ready` state is presented as the current public deployment state.
+
+The project does not claim an Agent Stack integration that is not present in the repository. The DeFi fit is direct: it implements an Arc Testnet USDC treasury policy, a capped TreasuryExecutor, Circle wallet readiness, replay-protected execution controls, and auditable reports. Onchain identity is supplementary evidence, not the project headline, and no human-free autonomous payment or completed transaction is claimed.
 
 Public demo video: https://raw.githubusercontent.com/sin199/arc-usdc-rebalancer/main/docs/arc-treasury-agent-demo.mp4
 
@@ -27,5 +29,5 @@ https://web-eight-chi-99.vercel.app/case-study
 ## Live review links
 
 - Dashboard: https://web-eight-chi-99.vercel.app/dashboard
-- Operator brief: https://web-eight-chi-99.vercel.app/operator
+- Treasury operations brief: https://web-eight-chi-99.vercel.app/operator
 - Release notes: https://web-eight-chi-99.vercel.app/notes

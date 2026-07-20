@@ -48,28 +48,28 @@ card_segment() {
 }
 
 card_segment "01-intro" "01" "16" \
-  "Arc Treasury Agent is a report-first USDC treasury operator on Arc. This is the production dashboard, not a mock transaction flow."
+  "Arc USDC Rebalancer is a DeFi Treasury workflow on Arc. This is the production dashboard, not a mock transaction flow."
 
 screen_segment "02-home" "$TMP/01-top.mov" "0" "22" \
-  "The dashboard starts in preview mode. It shows the Arc Testnet demo is ready, the onchain policy is loaded, Circle readiness is complete, and the TreasuryExecutor is configured. The operator can inspect the decision before connecting a signer."
+  "The dashboard starts in preview mode. It shows the Arc Testnet policy evidence, Circle wallet readiness, and TreasuryExecutor configuration. The operator can inspect the decision without connecting a signer."
 
 screen_segment "03-below-input" "$TMP/02-below.mov" "0" "28" \
   "Now we test the first policy boundary. The real page changes the current balance to seventy five USDC, below the one hundred USDC minimum. The policy band remains visible, while execution stays locked because this is a preview."
 
 screen_segment "04-below-evidence" "$TMP/05-below-report.mov" "12" "18" \
-  "The report carries the live chain snapshot, Circle wallet set, executor, and agent identity as evidence. The action is bounded by policy and the page never pretends that a preview is a signed transaction."
+  "The report carries the live chain snapshot, Circle wallet readiness, executor, and onchain identity evidence. The action is bounded by policy and the page never pretends that a preview is a signed transaction."
 
 screen_segment "05-above-input" "$TMP/07-above-correct.mov" "0" "26" \
   "The same production interface handles the opposite case. The current balance becomes seven hundred USDC, above the five hundred USDC target. The policy controls remain explicit so the operator can see exactly which state is being tested."
 
 screen_segment "06-above-evidence" "$TMP/06-above-report.mov" "12" "18" \
-  "Above target, the report recommends a bounded trim. The evidence panel still shows Circle readiness, the wallet set, the TreasuryExecutor, and the Arc agent identity. No funds move during this demo."
+  "Above target, the report recommends a bounded trim. The evidence panel still shows Circle readiness, the wallet set, the TreasuryExecutor, and Arc-linked identity evidence. No funds move during this demo."
 
 screen_segment "07-action-pack" "$TMP/04-report.mov" "8" "32" \
   "Finally, the at-target state returns Hold. The dashboard produces a copyable markdown report and action pack with chain ID, executor address, token address, and a zero-amount payload. The execution gate remains locked until an operator wallet is connected."
 
 card_segment "08-outro" "06" "20" \
-  "Arc Treasury Agent makes the next treasury action legible before it becomes executable. The public dashboard, case study, repository, and deck are ready for review."
+  "Arc USDC Rebalancer makes the next treasury action legible before it becomes executable. The public dashboard, case study, repository, and deck are ready for review."
 
 ffmpeg -hide_banner -loglevel error -y \
   -i "$TMP/final/01-intro.mp4" \

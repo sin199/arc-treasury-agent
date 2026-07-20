@@ -37,10 +37,10 @@ scene() {
 }
 
 scene "01" "20" \
-  "Arc Treasury Agent" \
-  "A report-first USDC treasury operator on Arc" \
+  "Arc USDC Rebalancer" \
+  "DeFi Treasury automation on Arc" \
   $'Watch the balance.\nApply a policy band.\nProduce a bounded action pack.' \
-  "Arc Treasury Agent is an autonomous USDC treasury operator built for the Agentic Economy track. It reads treasury state and policy, then turns that state into a clear, reviewable decision." \
+  "Arc USDC Rebalancer is a policy-driven USDC treasury workflow built for the DeFi track. It reads treasury state and policy, then turns that state into a clear, reviewable decision." \
   "0b1726"
 
 scene "02" "30" \
@@ -54,7 +54,7 @@ scene "03" "45" \
   "Live readiness report" \
   "The public dashboard works without a wallet" \
   $'500.00 USDC current balance\n100.00 minimum  /  500.00 target  /  200.00 max rebalance\nDecision: HOLD  |  Confidence: 92%' \
-  "On the production dashboard, the default state is five hundred USDC at the target. The report says Hold with ninety two percent confidence. The page also shows the onchain policy source, Circle readiness, wallet set, executor address, agent identity, and a copyable action pack." \
+  "On the production dashboard, the default preview state is five hundred USDC at the target. The report says Hold with ninety two percent confidence. The page also shows the onchain policy source, Circle readiness, wallet set, executor address, onchain identity evidence, and a copyable action pack." \
   "0b1726"
 
 scene "04" "35" \
@@ -68,14 +68,14 @@ scene "05" "30" \
   "Arc and Circle evidence" \
   "Execution stays optional and gated" \
   $'Arc Testnet policy loaded\nCircle developer-controlled wallet ready\nTreasuryExecutor configured\nOperator wallet required for signed execution' \
-  "The production build connects the decision to Arc Testnet policy state, a TreasuryExecutor, Arc agent identity, and a Circle developer-controlled wallet. A signed path stays locked until the operator wallet and every live dependency are ready." \
+  "The production build connects the decision to Arc Testnet policy state, a TreasuryExecutor, onchain identity evidence, and Circle developer-controlled wallet readiness. The public deployment keeps the signed path disabled." \
   "0b1726"
 
 scene "06" "20" \
   "A safe operator handoff" \
   "Preview first. Sign only when the gates pass." \
   $'Dashboard: web-eight-chi-99.vercel.app/dashboard\nCase study: web-eight-chi-99.vercel.app/case-study\nRepo: github.com/sin199/arc-usdc-rebalancer' \
-  "Arc Treasury Agent makes the next action legible before it makes it executable. The public dashboard, case study, and repository are available for review. The correct action in the current at-target state is Hold, with no transaction required." \
+  "Arc USDC Rebalancer makes the next action legible before it becomes executable. The public dashboard, case study, and repository are available for review. The current public preview is Hold, and no transaction is claimed." \
   "101f32"
 
 printf "file '%s/%s'\n" "$TMP" "01.mp4" > "$TMP/concat.txt"
