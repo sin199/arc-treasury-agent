@@ -4,7 +4,7 @@
 
 The project position is simple:
 
-- Use the `Agentic Economy Track`
+- Use the `DeFi Track`
 - Keep the settlement layer `USDC-native`
 - Show one clear flow instead of a broad product surface
 
@@ -12,10 +12,10 @@ The project position is simple:
 
 The current prototype demonstrates:
 
-1. A visible treasury balance held in USDC
-2. A small set of payout rules
-3. An agent-triggered payout cycle
-4. A settlement feed that records what the agent decided and executed
+1. A visible USDC treasury balance and onchain policy state
+2. Three bounded policy outcomes: `hold`, `top up`, or `trim`
+3. A wallet-free readiness report and copyable action pack
+4. Explicit execution gates with public writes disabled
 
 The public MVP keeps the same treasury-operator story while adding Arc Testnet policy reads, a TreasuryExecutor, agent identity, Circle readiness checks, report-first operation, and explicit live-execution gates.
 
@@ -41,6 +41,5 @@ Then open [http://127.0.0.1:4173](http://127.0.0.1:4173).
 
 ## What still needs to exist before submission
 
-- Complete Circle wallet-set readiness for live crosschain execution
-- Publish a verified Arc Testnet top-up or trim transaction hash
-- A 3-minute demo video
+- Keep the deployed execution lock in place while public evidence is reviewed
+- Submit the already-published repository, deck, and 3-minute demo at the final checkpoint

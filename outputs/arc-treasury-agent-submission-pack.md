@@ -31,5 +31,5 @@ The public deployment reads live Arc policy, Circle developer-controlled wallet 
 
 - Repository URL: https://github.com/sin199/arc-usdc-rebalancer
 - Progress / presentation URL: https://web-eight-chi-99.vercel.app/case-study
-- Deck URL: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-treasury-agent-deck.pptx
+- Deck URL: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-usdc-rebalancer-defi-treasury-deck.pptx
 - Demo video URL: https://raw.githubusercontent.com/sin199/arc-usdc-rebalancer/main/docs/arc-treasury-agent-demo.mp4

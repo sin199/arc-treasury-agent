@@ -12,7 +12,7 @@ The public Dashboard loads live Arc policy, Circle developer-controlled wallet r
 
 The three-minute demo is publicly accessible and shows the report, three policy scenarios, action pack, and execution lock. It does not claim that a top-up or trim transaction was sent.
 
-The final demo video is prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository. It includes real production Dashboard recordings for the 75 USDC and 700 USDC policy scenarios, report evidence, the Action Pack, and the execution lock. Before the final submission, the video and deck still need a consistency pass so no historical `all gates ready` state is presented as the current public deployment state.
+The final demo video is prepared as `docs/arc-treasury-agent-demo.mp4` in the public repository. It includes real production Dashboard recordings for the 75 USDC and 700 USDC policy scenarios, report evidence, the Action Pack, and the execution lock. The updated public deck now uses the same evidence boundary: no historical `all gates ready` state is presented as the current public deployment state.
 
 The project does not claim an Agent Stack integration that is not present in the repository. The DeFi fit is direct: it implements an Arc Testnet USDC treasury policy, a capped TreasuryExecutor, Circle wallet readiness, replay-protected execution controls, and auditable reports. Onchain identity is supplementary evidence, not the project headline, and no human-free autonomous payment or completed transaction is claimed.
 

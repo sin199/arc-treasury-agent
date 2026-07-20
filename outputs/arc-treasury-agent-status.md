@@ -38,7 +38,7 @@ Current state and remaining work:
 - The six-slide final presentation deck is published in the public production repository.
 - Encode Club project details contain the production Dashboard, repository, and case study, aligned to the DeFi Track.
 - The project group chat input is currently disabled, so the latest production update could not be posted there.
-- Checkpoint 2 opens on Monday, 2026-07-20 at 19:59 GMT+8 and requires the repository plus a progress or presentation link. Do not submit until the form is visibly open.
+- Checkpoint 2 is open until Monday, 2026-07-27 at 19:59 Asia/Shanghai and requires the repository plus a presentation link. The form contains the verified DeFi Track, repository, and grounded deck link; final submission still requires explicit action-time confirmation.
 
 Repository:
 - https://github.com/sin199/arc-usdc-rebalancer
@@ -51,8 +51,8 @@ Public review links:
 
 Demo preparation:
 - Three-minute recording script: `outputs/arc-treasury-agent-demo-script.md`
-- Presentation deck: `outputs/arc-treasury-agent-deck.pptx`
-- Public deck: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-treasury-agent-deck.pptx
+- Presentation deck: `docs/arc-usdc-rebalancer-defi-treasury-deck.pptx` in the public production repository
+- Public deck: https://github.com/sin199/arc-usdc-rebalancer/raw/main/docs/arc-usdc-rebalancer-defi-treasury-deck.pptx
 
 Automation:
 - A daily thread heartbeat is active through 2026-08-10 to revisit this thread and continue deadline handling automatically.
