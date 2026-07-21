@@ -21,8 +21,15 @@ $task"
 
 result="$("$JCODE_BIN" run --no-update --json --tools read,grep,glob "$prompt")"
 
-if [[ -z "$result" ]]; then
-  print -u2 'jcode-review: no structured result returned'
+result_without_whitespace="${result//[[:space:]]/}"
+
+if [[ -z "$result_without_whitespace" ]]; then
+  print -u2 'jcode-review: empty result returned; split the review scope and retry'
+  exit 1
+fi
+
+if [[ "$result" != *'"text":'* ]]; then
+  print -u2 'jcode-review: no final structured review text returned; split the review scope and retry'
   exit 1
 fi
 
